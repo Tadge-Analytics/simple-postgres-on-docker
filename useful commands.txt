@@ -1,0 +1,12 @@
+docker build -t [image name] .
+
+docker run -d -p 5432:5432 --rm -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=password [image name]
+
+
+
+
+# this list running containers
+docker ps
+
+
+docker stop [container id]
